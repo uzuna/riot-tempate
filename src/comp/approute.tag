@@ -12,8 +12,11 @@ comp-approute-menu
 			init:  function(){
 				const self = this;
 				const host = window.location.hostname;
-				const prefix = "";
-
+				// online root
+				let prefix = "/riot-tempate";
+				//- if(/localhost/.test(host)){
+				//- 	prefix = "";
+				//- }
 				/**
 				 * Route list
 				 */
